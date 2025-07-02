@@ -1,0 +1,338 @@
+* {
+  -decoration: none;
+}
+::selection {
+  background-color: rgb(73, 195, 244);
+  color: #fff;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #000000;
+}
+::-webkit-scrollbar-thumb {
+  width: 100%;
+  background-color: rgb(25, 25, 134);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* App.css atau index.css sample ya adik adik*/
+#map {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #131313, #0a236d);
+}
+
+textarea {
+  resize: none !important;
+}
+
+.text-purple {
+  color: rgb(24, 115, 185) !important;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-button {
+  background-color: #1873b9;
+  color: #fff;
+  border: 1px solid #1873b9;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #0d2947;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.nav-bar .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.text-logo {
+  color: rgb(24, 115, 185) !important;
+}
+
+.navbar-brand h2 {
+  margin-left: 19px;
+}
+
+.main .mainText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main {
+  min-height: 100vh;
+}
+#mainImg {
+  padding: 1rem;
+  overflow: hidden;
+}
+
+#mainImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(-5px -5px 13px #1873b9);
+}
+
+.btn-purple {
+  background-color: rgb(73, 195, 244) !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff !important;
+}
+
+.btn-purple-report {
+  background-color: rgb(73, 195, 244) !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0) !important;
+  position: fixed; /* Ubah menjadi fixed jika diinginkan */
+  bottom: 20px !important;
+  right: 20px;
+  z-index: 100;
+  /* Menambahkan properti untuk bentuk bulat */
+  padding: 10px 20px !important;
+  border-radius: 100px !important;
+  transition: background-color 0.3s ease; /* Animasi perubahan warna */
+}
+
+.btn-purple-report:hover {
+  background-color: rgb(253, 254, 255) !important;
+}
+
+.btn-outline-purple {
+  border: 2px solid #1766a4 !important;
+  color: #fff !important;
+  letter-spacing: 2px;
+}
+.btn-outline-purple:hover {
+  background-color: rgb(73, 195, 244) !important;
+}
+.form-control {
+  border: 1px solid rgb(24, 115, 185) !important;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.navbarComponent {
+  background-color: #131313ca !important;
+  backdrop-filter: blur(35px);
+}
+
+.navbarComponent .navbar-brand {
+  margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .navbarComponent .navbar-brand {
+    margin-left: 15px;
+  }
+}
+
+.navbarComponent .nav-link {
+  color: #797979;
+}
+
+.navbarComponent .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbarComponent .navbar-brand h2 {
+  display: inline;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.cardImg {
+  width: 250px !important;
+  margin: auto;
+}
+
+.logoservice {
+  width: 250px !important;
+  margin: auto;
+}
+
+.coding {
+  width: 250px !important;
+  margin: auto;
+}
+.card-body p {
+  font-size: 15px;
+}
+.sectionHeader {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sectionHeader::after {
+  content: "";
+  background-color: rgb(87, 191, 247);
+  width: 50px;
+  height: 3px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .order-1 {
+    order: 1 !important;
+  }
+
+  .order-2 {
+    order: 2 !important;
+  }
+}
+.pointer {
+  cursor: pointer;
+}
+.icon:hover {
+  color: rgb(24, 115, 185) !important;
+}
+.our_mentor img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.btn-purple:hover {
+  opacity: 0.8;
+}
+
+.nav-link.active {
+  color: #1873b9 !important;
+}
+
+.logo-navbar {
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: scale(3);
+}
+
+.navbar-brand h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.nav .nav-link {
+  color: #1873b9;
+  transition: color 0.1s ease;
+}
+
+.nav .nav-link:hover {
+  color: #1873b9;
+}
+
+.card {
+  margin: 10px;
+}
+
+.main-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+  .main-container {
+    padding-left: 15px;
+    /* Adjust this value as needed */
+    padding-right: 15px;
+    /* Adjust this value as needed */
+  }
+}
+
+.sectionHeader {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sectionHeader::after {
+  content: "";
+  background-color: rgb(87, 191, 247);
+  width: 50px;
+  height: 3px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.service-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  margin: 15px 0;
+  min-height: 530px;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.logoservice {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    transform: translateY(70px) !important;
+  }
+
+  .logoservice {
+    width: 100px !important;
+  }
+}
