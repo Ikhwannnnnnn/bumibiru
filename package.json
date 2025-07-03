@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gurucoding.cartera.my.id/",
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -52,6 +52,7 @@
     "start-server-and-test": "^2.0.3",
     "vite": "^5.2.0",
     "vite-plugin-copy": "^0.1.6",
+    "vite-plugin-static-copy": "^3.1.0",
     "vitest": "^1.6.0"
   }
 }

@@ -61,7 +61,7 @@ function NavbarComponent() {
                   </Nav.Link>
                   <Nav.Link
                     className="contact-button"
-                    href="http://localhost:8000/login"
+                    href="http://lapor-bumibiru.web.id/login"
                   >
                     <strong className="text-light">Masuk/Lapor</strong>
                   </Nav.Link>

@@ -1,6 +1,6 @@
 const api = (() => {
   // Ganti URL ke backend lokal yang sedang kamu develop
-  const BASE_URL = "http://localhost:8000/api";
+  const BASE_URL = "http://lapor-bumibiru.web.id/api";
 
   async function getDataMaps() {
     const response = await fetch(`${BASE_URL}/maps`);

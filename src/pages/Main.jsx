@@ -34,7 +34,7 @@ const Main = () => {
               melihat kejadian kebakaran yang terjadi pada areal kota Sangatta.
             </p>
             <div className="d-flex mt-3">
-              <a href="/maps" className="me-2 w-30 btn btn-outline-purple">
+              <a href="https://lapor-bumibiru.web.id/maps" className="me-2 w-30 btn btn-outline-purple">
                 {" "}
                 Lihat Peta{" "}
               </a>

@@ -39,7 +39,7 @@ const FunfactComponent = () => {
             Titik panas (hotspot) adalah indikator kebakaran hutan yang
             mendeteksi suatu lokasi yang memiliki suhu relatif lebih tinggi
             dibandingkan dengan suhu disekitarnya (Peraturan Menteri Kehutanan
-            Nomor : P. 12/Menhut-II/2009 Tentang Pengendalian Kebakaran Hutan,
+            Nomor: P. 12/Menhut-II/2009 Tentang Pengendalian Kebakaran Hutan,
             2009).
           </p>
         </Col>
