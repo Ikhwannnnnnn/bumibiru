@@ -31,50 +31,50 @@ export const mentorItems = [
   {
     id: 3,
     image: img3,
-    title: "Azizi",
+    title: "Berita 2",
     detail:
       "Azizi adalah seorang programmer yang ahli dalam menggunakan TypeScript dan Redux untuk mengelola keadaan aplikasi yang kompleks.",
-    tools: "ReactJS, TypeScript, Redux, Bootstrap",
+    tools: "kebakaran Lahan Gambut",
   },
   {
     id: 4,
     image: img3,
-    title: "Flora",
+    title: "Berita 3",
     detail:
       "Flora adalah seorang desainer web yang mahir dalam HTML, CSS, dan JavaScript untuk menciptakan halaman web yang menarik dan fungsional.",
-    tools: "HTML, CSS, JS",
+    tools: "kebakaran Lahan Gambut",
   },
   {
     id: 5,
     image: img3,
-    title: "Freya",
+    title: "Berita 4",
     detail:
       "Freya berfokus pada pengembangan aplikasi dengan ReactJS dan menggunakan Context API untuk manajemen keadaan secara efisien.",
-    tools: "ReactJS, Context API, Tilt.js",
+    tools: "kebakaran Lahan Gambut",
   },
   {
     id: 6,
     image: img3,
-    title: "Gracia",
+    title: "Berita 5",
     detail:
       "Gracia adalah seorang full-stack developer yang berpengalaman dengan NodeJS dan MongoDB, serta membangun aplikasi yang skalabel.",
-    tools: "NodeJS, ReactJS, MongoDB",
+    tools: "kebakaran Lahan Gambut",
   },
   {
     id: 7,
     image: img3,
-    title: "Jessi",
+    title: "Berita 6",
     detail:
       "Jessi ahli dalam menggunakan AngularJS dan Material UI untuk membangun aplikasi web yang cepat dan responsif.",
-    tools: "AngularJS, Material UI",
+    tools: "kebakaran Lahan Gambut",
   },
   {
     id: 8,
     image: img3,
-    title: "Shani",
+    title: "Berita 7",
     detail:
       "Shani adalah seorang pengembang front-end yang berpengalaman dalam menggunakan VueJS dan Vuex untuk manajemen keadaan aplikasi.",
-    tools: "VueJS, Vuex",
+    tools: "kebakaran Lahan Gambut",
   },
 ];
 
@@ -99,8 +99,8 @@ export const serviceItems = [
   },
   {
     id: 4,
-    title: "HTML",
-    desc: "HTML (HyperText Markup Language) adalah bahasa markup standar untuk membuat dan mendesain halaman web. HTML digunakan untuk mendefinisikan struktur dan konten sebuah halaman web, seperti teks, gambar, dan hyperlink.",
+    title: "Batas Administrasi",
+    desc: "Peta batas administrasi adalah peta yang menggambarkan batas-batas wilayah administratif suatu daerah, seperti batas negara, provinsi, kabupaten/kota, kecamatan, desa/kelurahan, bahkan hingga tingkat RW/RT. Peta ini berfungsi untuk memberikan informasi mengenai posisi suatu wilayah dan menjadi dasar dalam berbagai kegiatan, termasuk perencanaan wilayah, penataan ruang, dan penegakan hukum. ",
     image: layout_peta1,
   },
 ];
