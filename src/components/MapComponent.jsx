@@ -269,7 +269,7 @@ const MapComponent = ({ mentors }) => {
       });
     }
 
-    fetch("http://localhost:5173/data/Admin_Kota_Sangatta.json")
+    fetch("/data/Admin_Kota_Sangatta.json")
       .then((res) => res.json())
       .then((adminData) => {
         const adminLayer = L.geoJSON(adminData, {
@@ -282,7 +282,7 @@ const MapComponent = ({ mentors }) => {
           },
         });
 
-        fetch("http://localhost:5173/data/PL_Sangatta.json")
+        fetch("/data/PL_Sangatta.json")
           .then((res) => res.json())
           .then((plData) => {
             const sangattaLayer = L.geoJSON(plData, {
