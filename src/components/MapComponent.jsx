@@ -269,7 +269,7 @@ const MapComponent = ({ mentors }) => {
       });
     }
 
-    fetch("https://lapor-bumibiru.web.id/data/Admin_Kota_Sangatta.json")
+    fetch("http://localhost:5173/data/Admin_Kota_Sangatta.json")
       .then((res) => res.json())
       .then((adminData) => {
         const adminLayer = L.geoJSON(adminData, {
