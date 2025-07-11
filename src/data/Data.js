@@ -33,47 +33,47 @@ export const mentorItems = [
     image: img3,
     title: "Berita 2",
     detail:
-      "Azizi adalah seorang programmer yang ahli dalam menggunakan TypeScript dan Redux untuk mengelola keadaan aplikasi yang kompleks.",
-    tools: "kebakaran Lahan Gambut",
+      "Kebakaran terjadi akibat transisi musim penguhujan dan musim kemarau yang terjadi pada kota Sangatta yang menyebabkan kebakaran hutan, Vegetasi yang kering menjadi bahan bakar yang ampun untuk menimbulkan kejadian kebakaran ini.",
+    tools: "kebakaran Hutan",
   },
   {
     id: 4,
     image: img3,
     title: "Berita 3",
     detail:
-      "Flora adalah seorang desainer web yang mahir dalam HTML, CSS, dan JavaScript untuk menciptakan halaman web yang menarik dan fungsional.",
+      "Sangatta Selatan, 11 Juli 2025 – Kebakaran hutan kembali terjadi di kawasan hutan lindung Sangatta Selatan, Kalimantan Timur, pada Kamis sore. Api mulai terlihat sekitar pukul 14.30 WIB dan dengan cepat meluas akibat cuaca panas dan tiupan angin kencang.",
     tools: "kebakaran Lahan Gambut",
   },
   {
     id: 5,
     image: img3,
-    title: "Berita 4",
+    title: "Kutim Kembali Dilanda Kebakaran Lahan",
     detail:
-      "Freya berfokus pada pengembangan aplikasi dengan ReactJS dan menggunakan Context API untuk manajemen keadaan secara efisien.",
-    tools: "kebakaran Lahan Gambut",
+      "Sangatta Utara, Kaltimetam.id, Kebakaran hutan dan lahan (karhutla) di Jalan Dayung, Gang Bijaksana, Kelurahan Singa Gembara, Kecamatan Sangatta Utara, Kabupaten Kutai Timur. Kejadian ini terjadi sejak pukul 11:55 WITA hingga jam 13:45.",
+    tools: "kebakaran Lahan",
   },
   {
     id: 6,
     image: img3,
-    title: "Berita 5",
+    title: "Karhutla, Kota Sangatta",
     detail:
-      "Gracia adalah seorang full-stack developer yang berpengalaman dengan NodeJS dan MongoDB, serta membangun aplikasi yang skalabel.",
-    tools: "kebakaran Lahan Gambut",
+      "Karhutla melanda lahan seluas 3 hektare. Lokasi sulit dijangkau sehingga pemadaman dilakukan secara manual oleh petugas BPBD menggunakan ranting pohon selama hampir 3 jam .",
+    tools: "kebakaran Hutan dan Lahan",
   },
   {
     id: 7,
     image: img3,
     title: "Berita 6",
     detail:
-      "Jessi ahli dalam menggunakan AngularJS dan Material UI untuk membangun aplikasi web yang cepat dan responsif.",
-    tools: "kebakaran Lahan Gambut",
+      "Kebakaran hutan dan lahan di kawasan perkebunan sawit seluas 5 hektare. Api dipicu oleh pembakaran lahan oleh manusia. Tim Babinkamtibmas, Manggala Agni, MPA, relawan, dan masyarakat berhasil mengendalikan api.",
+    tools: "kebakaran hutan dan Lahan",
   },
   {
     id: 8,
     image: img3,
     title: "Berita 7",
     detail:
-      "Shani adalah seorang pengembang front-end yang berpengalaman dalam menggunakan VueJS dan Vuex untuk manajemen keadaan aplikasi.",
+      "",
     tools: "kebakaran Lahan Gambut",
   },
 ];
