@@ -19,7 +19,7 @@ const MapComponent = ({ mentors }) => {
   const measureControlRef = useRef(null);
   const layerControlRef = useRef(null);
   const overlaysAddedRef = useRef(false);
-  const BASE_URL = "https://api.lapor-bumibiru.web.id";
+  const BASE_URL = "https://lapor-bumibiru.web.id";
 
   useEffect(() => {
     const L = window.L;
