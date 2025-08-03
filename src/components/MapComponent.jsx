@@ -473,7 +473,7 @@ const MapComponent = ({ mentors }) => {
                   </strong>
                   <p style={{ fontSize: "0.95rem", color: "#555" }}>
                     <a
-                      href={`${BASE_URL}/mentor/file/${selectedMentor.cv}`}
+                      href={`${BASE_URL}/mentor/cv/${selectedMentor.cv}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-outline-primary btn-sm"
