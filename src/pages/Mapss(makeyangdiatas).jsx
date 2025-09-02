@@ -23,18 +23,9 @@ function Maps() {
   const headerStyle = {
     position: "absolute",
     top: "20px",
-    left: "50%",
-    transform: "translateX(-50%)",
+    left: "20px", // Posisi ke kiri
     zIndex: 1000,
-    display: "flex",
-    alignItems: "center",
-    width: "90%",
-    justifyContent: "space-between",
-  };
-
-  const buttonStyle = {
-    display: "flex",
-    alignItems: "center",
+    width: "auto", // Sesuaikan dengan konten
   };
 
   return (
@@ -48,11 +39,12 @@ function Maps() {
         zIndex: 1,
       }}
     >
+      {/* Search Component di kiri atas */}
       <div style={headerStyle}>
-
         <SearchComponent />
-        <div style={{ width: "10%" }}></div>
       </div>
+
+      {/* MapComponent mengisi seluruh layar */}
       <MapComponent mentors={maps} />
     </div>
   );
