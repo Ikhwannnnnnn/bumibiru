@@ -1,17 +1,17 @@
-## Capstone Project - Tim C624-PS034
+## Proyek Akhir - Muhammad Ikhwan Dian Kusuma
 
 <p align="center">
-  <img src="src/assets/gurucodingicon2.png" alt="Logo_gurucoding" width="300" height="300">
-  <h3 align="center">GuruCoding</h3>
+  <img src="src/assets/logo-iwan.png" alt="Logo_gurucoding" width="300" height="300">
+  <h3 align="center">BumiBiru</h3>
 </p>
 
-Ini adalah repositori front-end yang digunakan untuk tugas akhir Program Studi Mandiri (SIB) Kampus Merdeka x Dicoding angkatan 6.
+Ini adalah repositori front-end yang digunakan untuk Proyek Akhir program studi D4 Sistem Informasi Geografis Universitas Gadjah Mada
 
 ## Mengenal GuruCoding
 
-GuruCoding adalah situs web yang menyediakan layanan pencarian mentor dan coach pemrograman website di Indonesia.
+BumiBiru adalah situs web yang menyediakan layanan pelaporan kebakaran hutan yang berada di kota sangatta.
 
-Di GuruCoding, tujuan kami adalah untuk membantu individu dan profesional menemukan mentor yang tepat untuk mengembangkan keterampilan mereka dalam pemrograman dan pengembangan web. Kami menyediakan platform yang memungkinkan pengguna mencari mentor berdasarkan berbagai preferensi seperti keahlian spesifik, lokasi, dan kombinasi dari kedua faktor tersebut. Dengan ini, kami berharap dapat mendukung pertumbuhan komunitas pengembang di Indonesia dan meningkatkan kualitas sumber daya manusia dalam bidang teknologi informasi.
+BumiBiru Adalah sebuah platform yang digunakan untuk melihat kejadian kejadian kebakaran hutan yang terjadi diwilayah kota Sangatta. BumiBiru hadir sebagai laman pelaporan kebakaran hutan yang disajikan secara realtime dan aktual. Dengan berbagai fitur berita, penanggulangan, dan edukasi dini tentang pencegahan kebakaran hutan. sehingga masyarakat dapat memantau dan melihat kejadian kebakaran yang terjadi pada areal kota Sangatta.
 
 ## Teknologi yang digunakan
 
@@ -23,14 +23,14 @@ Di GuruCoding, tujuan kami adalah untuk membantu individu dan profesional menemu
 
 ## Repository API & Back-End GuruCoding 
 
-<a href='https://github.com/Yohkevin1/backend_gurucoding' target='_blank' rel='noreferrer'>
+<a href='https://github.com/Ikhwannnnnnn/backend-bumibiru' target='_blank' rel='noreferrer'>
 Repository Back-End GuruCoding 
 </a>
 
 ## Website
 
-<a href='https://gurucoding.cartera.my.id/' target='_blank' rel='noreferrer'>
-GuruCoding
+<a href='https://lapor-bumibiru.web.id/' target='_blank' rel='noreferrer'>
+BumiBiru
 </a>
 
 ## Development
@@ -44,9 +44,5 @@ Run server in development mode : <br>
 Build Production : <br>
 `npm run build`
 
-## Tim Kami
 
-1. R0086YB468 - (Muhammad Ikhwan Dian Kusuma)
-2. R1856YB420 - (Yohanes Kevin Wahyu Utama)
-3. R1836YB435 -  (Naufal Rafif Wirasena)
 
