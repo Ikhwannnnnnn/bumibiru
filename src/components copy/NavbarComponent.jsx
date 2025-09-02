@@ -48,7 +48,7 @@ function NavbarComponent() {
                     <strong>Informasi</strong>
                   </Nav.Link>
                   <Nav.Link href="#services">
-                    <strong>Lembaga</strong>
+                    <strong>Layout Peta</strong>
                   </Nav.Link>
                   <Nav.Link href="#our_mentor">
                     <strong>Berita</strong>
@@ -61,9 +61,9 @@ function NavbarComponent() {
                   </Nav.Link>
                   <Nav.Link
                     className="contact-button"
-                    href="http://localhost:8000/login"
+                    href= "http://localhost:8000/login"
                   >
-                    <strong className="text-light">Login</strong>
+                    <strong className="text-light">Masuk/Lapor</strong>
                   </Nav.Link>
                 </Nav>
               </Offcanvas.Body>

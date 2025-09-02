@@ -28,7 +28,7 @@ const MentorModal = ({ show, handleClose, handleShow, item }) => {
             Tutup
           </Button>
           <Button >
-          <a href="https://en.wikipedia.org/wiki/CSS" className="nav-link text-light">Lihat Berita</a>
+          <a href="https://pusaranmedia.com/read/28289/breaking-news-karhutla-di-sangatta-hanguskan-lahan-seluas-lima-hektare?utm_source=chatgpt.com" className="nav-link text-light">Lihat Berita</a>
           </Button>
         </Modal.Footer>
       </Modal>

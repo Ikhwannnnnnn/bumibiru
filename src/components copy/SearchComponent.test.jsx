@@ -17,7 +17,7 @@ describe('SearchComponent', () => {
             <SearchComponent />
           </Provider>
         );
-        expect(screen.getByPlaceholderText('Cari berdasarkan kejadia')).toBeInTheDocument();
+        expect(screen.getByPlaceholderText('Cari berdasarkan kejadian')).toBeInTheDocument();
     });
 
     it('should handle search input change', async () => { // Add async keyword

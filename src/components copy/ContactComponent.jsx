@@ -23,7 +23,7 @@ const ContactComponent = () => {
           </p>
           <form>
             <a
-              href="mailto:gurucoding@gmail.com"
+              href="mailto:laporbumibiru123@gmail.com"
               className="btn btn-purple-report"
             >
               {" "}

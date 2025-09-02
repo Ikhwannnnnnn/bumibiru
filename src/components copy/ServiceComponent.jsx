@@ -38,7 +38,7 @@ const ServiceComponent = () => {
   return (
     <Container>
       <h2 id="services" className="my-4 text-center sectionHeader text-light">
-        Layanan
+        Analisis Data Geospasial
       </h2>
       <Slider {...settings}>
         {serviceItems.map((item) => (

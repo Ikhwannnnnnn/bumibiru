@@ -95,23 +95,24 @@ const MapComponent = ({ mentors }) => {
         .addTo(mapInstance);
     }
 
+    // 🔹 Tambahkan Locate Control (posisi topright)
+    let locateControl = null;
     if (typeof L.control.locate === "function") {
-      L.control
-        .locate({
-          position: "topright",
-          strings: { title: "Show me where I am" },
-          flyTo: true,
-          keepCurrentZoomLevel: false,
-        })
-        .addTo(mapInstance);
+      locateControl = L.control.locate({
+        position: "topright",
+        strings: { title: "Show me where I am" },
+        flyTo: true,
+        keepCurrentZoomLevel: false,
+      });
+      locateControl.addTo(mapInstance);
     } else {
       console.warn("Plugin locatecontrol tidak tersedia");
     }
 
-    // Measure control dipindahkan ke bottomright (di bawah locate)
+    // 🔹 Tambahkan Measure Control (juga di topright, akan muncul di bawah locate)
     if (typeof L.control.measure === "function") {
       const measureControl = L.control.measure({
-        position: "bottomright", // <-- Diubah dari topleft ke bottomright
+        position: "topright", // Diatur ke topright agar sejajar dengan locate
         primaryLengthUnit: "meters",
         secondaryLengthUnit: "kilometers",
         primaryAreaUnit: "sqmeters",
@@ -270,7 +271,7 @@ const MapComponent = ({ mentors }) => {
       });
     }
 
-    fetch("http://localhost:5173/data/Admin_Kota_Sangatta.json")
+    fetch("/data/Admin_Kota_Sangatta.json")
       .then((res) => res.json())
       .then((adminData) => {
         const adminLayer = L.geoJSON(adminData, {
@@ -283,7 +284,7 @@ const MapComponent = ({ mentors }) => {
           },
         });
 
-        fetch("http://localhost:5173/data/PL_Sangatta.json")
+        fetch("/data/PL_Sangatta.json")
           .then((res) => res.json())
           .then((plData) => {
             const sangattaLayer = L.geoJSON(plData, {
@@ -360,7 +361,7 @@ const MapComponent = ({ mentors }) => {
     heatmapLayerRef.current = heatmapLayer;
 
     if (layerControlRef.current && !heatmapOverlayAddedRef.current) {
-      layerControlRef.current.addOverlay(heatmapLayer, "Heatmap Mentors");
+      layerControlRef.current.addOverlay(heatmapLayer, "Heatmap Monitor");
 
       map.on("overlayadd overlayremove", (e) => {
         if (e.name === "Heatmap Mentors") {
@@ -474,7 +475,7 @@ const MapComponent = ({ mentors }) => {
                   </strong>
                   <p style={{ fontSize: "0.95rem", color: "#555" }}>
                     <a
-                      href={`${BASE_URL}/mentor/file/${selectedMentor.cv}`}
+                      href={`${BASE_URL}/mentor/cv/${selectedMentor.cv}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-outline-primary btn-sm"
