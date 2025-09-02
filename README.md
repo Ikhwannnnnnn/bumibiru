@@ -7,7 +7,7 @@
 
 Ini adalah repositori front-end yang digunakan untuk Proyek Akhir program studi D4 Sistem Informasi Geografis Universitas Gadjah Mada
 
-## Mengenal GuruCoding
+## Mengenal BumiBiru
 
 BumiBiru adalah situs web yang menyediakan layanan pelaporan kebakaran hutan yang berada di kota sangatta.
 
